@@ -1,3 +1,8 @@
+"""
+    Esse código acessa a API de jogos da MEGA-SENA
+    Calcula quantas vezes cada dezena saiu [Vezes, Dezena]
+"""
+
 import requests
 
 response = requests.get("https://loteriascaixa-api.herokuapp.com/api/mega-sena")
